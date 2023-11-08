@@ -1,0 +1,122 @@
+.container-hero-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.photo-hero-modal {
+  position: absolute;
+  left: 20px;
+  top: 120px;
+  margin-top: -100px;
+  width: 129px;
+  height: 220px;
+  border-radius: 20px;
+}
+
+.photo-hero-modal-search {
+  position: absolute;
+  right: 20px;
+  top: 120px;
+  margin-top: -100px;
+  width: 129px;
+  height: 220px;
+  border-radius: 20px;
+}
+
+.btn-close {
+  width: 100px;
+  height: 30px;
+  background: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 5px;
+  color: #434343;
+  position: absolute;
+  left: 20px;
+  top: 300px;
+}
+
+.btn-battle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  background: #ff0000;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 5px;
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  top: 300px;
+}
+
+#title-hero-select-modal {
+  position: relative;
+  left: -360px;
+  top: 210px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+#title-hero-select-modal-search {
+  position: relative;
+  left: 360px;
+  top: 180px;
+}
+
+.powerstats-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+  row-gap: 10px;
+  position: absolute;
+  left: 165px;
+  top: 25px;
+}
+
+.powerstats-modal-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+  float: right;
+  row-gap: 10px;
+  position: absolute;
+  right: 165px;
+  top: 25px;
+}
+
+.search-item-modal {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-item-modal input {
+  width: 150px;
+}
+
+#winner {
+  width: 100px;
+  position: absolute;
+  left: 380px;
+  top: 120px;
+  color: #50c878;
+}

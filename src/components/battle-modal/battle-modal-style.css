@@ -1,0 +1,12 @@
+.btn-close {
+  width: 100px;
+  height: 30px;
+  background: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 5px;
+  color: #434343;
+  position: absolute;
+  left: 20px;
+  top: 300px;
+}

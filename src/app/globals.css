@@ -18,10 +18,28 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #202324;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 46, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    background-size: cover;
+  }
 }

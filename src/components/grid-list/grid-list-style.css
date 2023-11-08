@@ -1,0 +1,32 @@
+.grid-item {
+  width: 149px;
+  height: 240px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  filter: brightness(95%) contrast(90%) saturate(95%);
+}
+
+.grid-item:hover {
+  transform: scale(1.1);
+}
+
+#title-item-grid {
+  width: 123px;
+  height: 37px;
+  margin-top: 200px;
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.pagination-ui {
+  margin-left: 5%;
+  margin-top: 50px;
+}
