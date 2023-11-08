@@ -2,17 +2,7 @@
 
 ## Commands:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-## Run project
+### Run project
 
 - Clone Repository and install dependences
 
@@ -21,7 +11,16 @@ bun dev
        npm install or yarn install
 
 - Run project
-  npm start or yarn start
+
+  ```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
 ## Application
 
